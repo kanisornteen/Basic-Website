@@ -1,0 +1,12 @@
+.text {
+    color: green;
+    background-color: rgb(255, 255, 255);
+    border: 5px;
+    border-radius: 5px;
+    width: 500px;
+    text-align: center;
+}
+
+.background-page {
+    background-color: black;
+}
