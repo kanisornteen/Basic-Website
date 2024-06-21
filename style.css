@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #0f0f0f;
 }
 
 * a {
@@ -17,7 +18,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-color: #0f0f0f;
     padding: 0 16px;
     height: 56px;
 }
@@ -43,22 +44,22 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    width: 100%;
+    width: 600px;
 }
 
 .search {
-    min-width: 20px;
-    width: 55%;
+    flex: 1;
 }
 
 .search input {
     width: 100%;
     height: 40px;
-    border: none;
-    border-radius: 30px;
+    border: 2px solid #3d3d3d;
+    border-right: none;
+    background-color: #0f0f0f;
     outline: none;
     padding: 0 10px;
+    border-radius: 40px 0 0 40px;
 }
 
 .microphone {
@@ -83,4 +84,20 @@
 
 .profile {
     font-size: 1.5rem;
+}
+
+.search-icon {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    padding: 5px 20px;
+    height: 40px;
+    border: 2px solid #3d3d3d;
+    border-radius: 0 40px 40px 0;
+    background-color: #212121;
+    margin: 0 15px 0 0;
+}
+
+.search-icon i {
+    background-color: #212121;
 }
